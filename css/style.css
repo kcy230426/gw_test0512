@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'pt';
+    src: url(../font/Pretendard-Regular.woff);
+}
+
+body{
+    font-family: 'pt';
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-block{
+    display: block;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.d1li{
+    width: 140px;
+}
+
+.d1li > a{
+    font-size: 20px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.d1li:hover > a{
+    background-color: rgb(26, 96, 161);
+    color: white;
+}
+
+.d2ul{
+    height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+    
+}
+
+.d2ul li{
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.d1li:hover .d2ul{
+    height: calc(50px * 3);
+    color: black;
+    font-size: 18px;
+}
+
+.d2ul a{
+    display: block;
+    width: 140px;
+    background-color: rgb(255, 255, 255);
+}
+
+.d2li0:hover > a {
+    background-color: rgb(181, 207, 247);
+}
+
+.tab{
+    height: 200px;
+}
+
+.table > div{
+    line-height: 45px;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.notice{
+    background-color: rgb(181, 207, 247);
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+.board a{s
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap 
+}
+
+.board {
+    padding: 10px 15px;
+    line-height: 2;
+    font-size: 17px;
+    background-color: rgb(181, 207, 247);
+}
+
+.board span{
+    margin-left: 45px;
+}
+
+
+
